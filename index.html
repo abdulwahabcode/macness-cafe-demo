@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Macness Cafe &amp; Takeaway — Your Neighbourhood Hub in Inverness</title>
+<meta name="description" content="Macness Cafe & Takeaway — a family-run Scottish community cafe on MacEwen Drive, Inverness. Hearty breakfasts, homemade soups and honest value, served with a smile.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ══════════ TOP BAR ══════════ -->
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span class="topbar-item">📍 13–15 MacEwen Dr, Inverness IV2 3LJ</span>
+    <span class="topbar-item">🕗 Wed 8:00 AM – 3:30 PM</span>
+    <a class="topbar-item topbar-link" href="tel:+441463241514">📞 01463 241514</a>
+  </div>
+</div>
+
+<!-- ══════════ HEADER ══════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-in">
+    <a href="#top" class="brand">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">Macness <em>Cafe &amp; Takeaway</em></span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+      <a href="tel:+441463241514" class="btn btn-call">Call to Order</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero">
+  <img class="hero-bg" src="images/hero.jpg" alt="Warm, cosy interior of Macness Cafe" fetchpriority="high">
+  <div class="hero-shade"></div>
+  <div class="wrap hero-in">
+    <p class="hero-kicker reveal">Family-run · Inverness</p>
+    <h1 class="reveal">Your neighbourhood hub,<br>served with a smile.</h1>
+    <p class="hero-sub reveal">Hearty Scottish breakfasts, homemade soups and honest, proper value — right here on MacEwen Drive.</p>
+    <div class="hero-badges reveal">
+      <span class="badge">★ 4.7 · 84 Google reviews</span>
+      <span class="badge badge-light">☕ Sit in or takeaway</span>
+    </div>
+    <div class="hero-ctas reveal">
+      <a href="tel:+441463241514" class="btn btn-primary">📞 Call 01463 241514</a>
+      <a href="#visit" class="btn btn-ghost">Find Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FACTS STRIP ══════════ -->
+<section class="facts">
+  <div class="wrap facts-in">
+    <div class="fact reveal"><span class="fact-ico">🍳</span><div><strong>Full Scottish breakfast</strong><span>served all morning</span></div></div>
+    <div class="fact reveal"><span class="fact-ico">🥣</span><div><strong>Homemade soups daily</strong><span>proper comfort food</span></div></div>
+    <div class="fact reveal"><span class="fact-ico">🛍️</span><div><strong>Takeaway counter</strong><span>phone ahead, skip the wait</span></div></div>
+    <div class="fact reveal"><span class="fact-ico">🤝</span><div><strong>Community hub</strong><span>everyone knows your name</span></div></div>
+  </div>
+</section>
+
+<!-- ══════════ STORY ══════════ -->
+<section class="story" id="story">
+  <div class="wrap story-in">
+    <div class="story-media reveal">
+      <img src="images/story.jpg" alt="Inside Macness Cafe — a warm community cafe" loading="lazy">
+      <div class="story-card">
+        <span class="story-card-num">4.7★</span>
+        <span class="story-card-txt">rated by locals on Google</span>
+      </div>
+    </div>
+    <div class="story-copy">
+      <p class="kicker reveal">Our story</p>
+      <h2 class="reveal">Unpretentious, warm<br>&amp; proudly local.</h2>
+      <p class="reveal">Macness is a classic family-run Scottish cafe — the kind of place where the regulars have their own table and newcomers are regulars by the second visit. No fuss, no frills: just generous portions, fair prices and food made with care.</p>
+      <p class="reveal">From a proper full Scottish breakfast to a steaming bowl of homemade soup at lunchtime, everything here is about value and comfort. For many in the neighbourhood, Macness isn't just a cafe — it's the hub of the community.</p>
+      <ul class="story-list reveal">
+        <li>✓ Family-run &amp; independent</li>
+        <li>✓ Generous portions, honest prices</li>
+        <li>✓ Takeaway available — phone ahead</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MENU ══════════ -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <p class="kicker kicker-center reveal">The menu</p>
+    <h2 class="center reveal">Proper food, proper value.</h2>
+    <p class="menu-note center reveal">A taste of what we serve — the full menu is on the board in store.</p>
+
+    <div class="tabs reveal" role="tablist" aria-label="Menu categories">
+      <button class="tab active" data-tab="breakfast" role="tab" aria-selected="true">Breakfast</button>
+      <button class="tab" data-tab="lunch" role="tab" aria-selected="false">Soups &amp; Lunch</button>
+      <button class="tab" data-tab="takeaway" role="tab" aria-selected="false">Takeaway</button>
+    </div>
+
+    <div class="tab-panels">
+      <div class="panel active" id="panel-breakfast" role="tabpanel">
+        <div class="menu-grid">
+          <img class="menu-photo" src="images/breakfast.jpg" alt="Full Scottish breakfast" loading="lazy">
+          <ul class="menu-items">
+            <li><div><strong>Full Scottish Breakfast</strong><span>bacon, sausage, egg, beans, tomato &amp; toast</span></div><b>£8.95</b></li>
+            <li><div><strong>Breakfast Roll</strong><span>bacon, sausage, egg or square sausage on a morning roll</span></div><b>£3.50</b></li>
+            <li><div><strong>Porridge &amp; Honey</strong><span>creamy Scottish oats, heather honey</span></div><b>£3.95</b></li>
+            <li><div><strong>Eggs on Toast</strong><span>two free-range eggs, fried or scrambled</span></div><b>£4.50</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel" id="panel-lunch" role="tabpanel">
+        <div class="menu-grid">
+          <img class="menu-photo" src="images/soup.jpg" alt="Bowl of homemade soup" loading="lazy">
+          <ul class="menu-items">
+            <li><div><strong>Soup of the Day</strong><span>homemade — lentil, Scotch broth or leek &amp; tattie, with crusty bread</span></div><b>£4.50</b></li>
+            <li><div><strong>Soup &amp; Sandwich Deal</strong><span>any soup with a filled sandwich of your choice</span></div><b>£7.50</b></li>
+            <li><div><strong>Toastie of the Day</strong><span>cheese &amp; ham, tuna melt or cheese &amp; onion, on thick-cut bread</span></div><b>£5.50</b></li>
+            <li><div><strong>Filled Sandwiches</strong><span>made fresh to order — ask what's on today</span></div><b>£4.95</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel" id="panel-takeaway" role="tabpanel">
+        <div class="menu-grid">
+          <img class="menu-photo" src="images/sandwich.jpg" alt="Fresh sandwiches ready for takeaway" loading="lazy">
+          <ul class="menu-items">
+            <li><div><strong>Takeaway Breakfast Rolls</strong><span>phone ahead and we'll have them hot &amp; ready</span></div><b>£3.50</b></li>
+            <li><div><strong>Soup to Go</strong><span>takeaway tub of the day's homemade soup with a roll</span></div><b>£5.00</b></li>
+            <li><div><strong>Home Baking Box</strong><span>a selection of the day's cakes &amp; traybakes</span></div><b>£6.00</b></li>
+            <li><div><strong>Tea &amp; Coffee to Go</strong><span>proper brew, proper cup — no nonsense</span></div><b>£2.50</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-cta center reveal">Hungry now? <a href="tel:+441463241514">Call 01463 241514</a> and we'll have it ready.</p>
+  </div>
+</section>
+
+<!-- ══════════ GALLERY ══════════ -->
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <p class="kicker kicker-center reveal">Gallery</p>
+    <h2 class="center reveal">A wee look inside.</h2>
+    <div class="gallery-grid">
+      <img class="reveal" src="images/counter.jpg" alt="Coffee being made at the counter" loading="lazy">
+      <img class="reveal" src="images/breakfast2.jpg" alt="Hearty breakfast plate" loading="lazy">
+      <img class="reveal" src="images/cake.jpg" alt="Cake served with tea" loading="lazy">
+      <img class="reveal" src="images/coffee.jpg" alt="Freshly brewed coffee" loading="lazy">
+      <img class="reveal" src="images/soup2.jpg" alt="Homemade soup" loading="lazy">
+      <img class="reveal" src="images/beans.jpg" alt="Coffee beans" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ REVIEWS ══════════ -->
+<section class="reviews">
+  <div class="wrap">
+    <p class="kicker kicker-center reveal">Word on the street</p>
+    <h2 class="center reveal">Loved by the locals.</h2>
+    <div class="review-grid">
+      <blockquote class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Cracking value and the breakfast is enormous. The staff treat you like family — my go-to every Saturday."</p>
+        <cite>— Local regular</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Proper homemade soup and the friendliest service in Inverness. You can tell it's run by people who care."</p>
+        <cite>— Google review</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="stars">★★★★☆</div>
+        <p>"Phone ahead and your takeaway's ready when you arrive. Brilliant wee community cafe — a real neighbourhood gem."</p>
+        <cite>— Google review</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VISIT ══════════ -->
+<section class="visit" id="visit">
+  <div class="wrap visit-in">
+    <div class="visit-copy">
+      <p class="kicker reveal">Visit us</p>
+      <h2 class="reveal">Pop in for a blether<br>over a brew.</h2>
+      <p class="reveal">You'll find us on MacEwen Drive — come for breakfast, stay for the chat.</p>
+      <ul class="visit-details reveal">
+        <li><strong>📍 Address</strong><span>13–15 MacEwen Dr,<br>Inverness IV2 3LJ</span></li>
+        <li><strong>🕗 Hours</strong><span>Mon – Sat · 8:00 AM – 3:30 PM<br><small>Typical hours — please call to confirm</small></span></li>
+        <li><strong>📞 Phone</strong><span><a href="tel:+441463241514">01463 241514</a></span></li>
+        <li><strong>✉️ Email</strong><span><a href="mailto:macnesscafe@outlook.com">macnesscafe@outlook.com</a></span></li>
+      </ul>
+      <div class="visit-ctas reveal">
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Macness+Cafe+Takeaway+Inverness" target="_blank" rel="noopener">Get Directions</a>
+        <a class="btn btn-outline" href="tel:+441463241514">Call to Order</a>
+      </div>
+    </div>
+    <div class="visit-media reveal">
+      <img src="images/tea.jpg" alt="A proper cup of tea with cake at Macness" loading="lazy">
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div class="footer-brand">
+      <span class="brand-mark">M</span>
+      <div>
+        <strong>Macness Cafe &amp; Takeaway</strong>
+        <span>13–15 MacEwen Dr, Inverness IV2 3LJ</span>
+      </div>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:+441463241514">📞 01463 241514</a>
+      <a href="mailto:macnesscafe@outlook.com">✉️ macnesscafe@outlook.com</a>
+    </div>
+    <p class="footer-note">Family-run community cafe · Sit in or takeaway</p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
